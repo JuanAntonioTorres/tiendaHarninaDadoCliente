@@ -6,6 +6,7 @@ import dao.clienteDAO.ClienteRoll;
 import dao.cp.CPDAO;
 import entity.ClienteEntity;
 import error.EstadoError;
+import utils.CargadorImagen;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -63,7 +64,7 @@ public class ValidarClientInsertController extends HttpServlet {
         if(mensaje.equals("")) {
 
 
-            clientFotoLoad(request, response);
+            new CargadorImagen(request.getPart("imagenCliente"),getServletContext().getRealPath("img/fotoClient/"),dataPersonCliente.getNifCliente()).clientFotoLoad();
 
             dataPersonCliente.setImagenCliente(dataPersonCliente.getNifCliente() + ".png");
 
@@ -85,49 +86,8 @@ public class ValidarClientInsertController extends HttpServlet {
     }
 
 
-    private String getFileName(Part part) {
-        for (String cd : part.getHeader("content-disposition").split(";")) {
-            if (cd.trim().startsWith("filename")) {
-                return cd.substring(cd.indexOf('=') + 1).trim()
-                        .replace("\"", "");
-            }
-        }
-        return "fotoSin.jpg";
-    }
 
-    private void clientFotoLoad(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
-        Part filePart = request.getPart("imagenCliente");
-        String fileName = getFileName(filePart);
-        String dniCliente = request.getParameter("nifCliente");
-
-        if (fileName.length() > 2) {
-
-            fileName = dniCliente + ".png";
-
-            String path = getServletContext().getRealPath("img/fotoClient/");
-
-            File folder = new File(path);
-            if (!folder.exists()) {
-                folder.mkdirs();
-            }
-
-            FileOutputStream fs = new FileOutputStream(new File(path + fileName));
-            BufferedOutputStream buf = new BufferedOutputStream(fs);
-
-            InputStream fileContent = filePart.getInputStream();
-            BufferedInputStream bufIN = new BufferedInputStream(fileContent);
-
-            byte[] buffer = new byte[8 * 1024];
-            int bytesRead;
-            while ((bytesRead = bufIN.read(buffer)) != -1) {
-                buf.write(buffer, 0, bytesRead);
-            }
-
-            buf.close();
-            bufIN.close();
-        }
-    }
 
 
 }

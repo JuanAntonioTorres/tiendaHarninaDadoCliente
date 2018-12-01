@@ -1,11 +1,8 @@
 package cliente;
 
-import dao.clienteDAO.ClienteRoll;
-import dao.cp.CPDAO;
 import entity.DaperClienteEntity;
 import validate.*;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class ComandoValidarDaperCliente implements ComandoValidarCliente {

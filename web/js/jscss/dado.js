@@ -1,5 +1,15 @@
-var dados = ['dado informatica','dado harnina','dado juntaextremadura'];
-var imagenes = ['../img/escudo02.png','../img/harni01.png','../img/Escudo_de_Extremadura.png'];
+var imagenUsuario;
+var nif;
+if(nif===undefined){
+  imagenUsuario = '../img/fotocliente/fotoSin.jpg';
+}
+else{
+    imagenUsuario = 'img/fotoClient/'+ nif+ '.png';
+}
+
+var dados = ['dado informatica','dado harnina','dado usuario'];
+
+var imagenes = ['../img/escudo02.png','../img/harni01.png', imagenUsuario];
 var clases = ['cara frontal','cara trasera','cara derecha','cara izquierda','cara arriba','cara abajo'];
 
 var creaImagen = function(imag){
@@ -17,11 +27,9 @@ var creaCara = function(dado, n, imagen){
     dado[n].appendChild(cara);
   }
 }
-
 for (var i = 0; i <= dados.length; i++) {
   var dado = document.getElementsByClassName(dados[i]);
   for (var j = 0; j < dado.length; j++){
     creaCara(dado, j, imagenes[i]);
   }
-
 }

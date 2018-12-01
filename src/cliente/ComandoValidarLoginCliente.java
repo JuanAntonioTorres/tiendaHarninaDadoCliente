@@ -13,7 +13,7 @@ public class ComandoValidarLoginCliente implements ComandoValidarCliente {
    public ComandoValidarLoginCliente(LoginClienteHarnina loginClienteHarnina){
       this.loginClienteHarnina = loginClienteHarnina;
    }
-    public ArrayList<Integer> getCommands(){
+    public  ArrayList<Integer> getCommands(){
 
         ArrayList<Integer> listaErrores = new ArrayList<Integer>();
 

@@ -1,5 +1,6 @@
 package controller;
 
+import cliente.ComandoValidarLoginCliente;
 import cliente.DataLoginCliente;
 import dao.clienteDAO.ClienteDAO;
 import entity.DaperClienteEntity;
@@ -49,14 +50,16 @@ public class ValidarClientSessionController extends HttpServlet {
 
         ArrayList<Integer> listaErrores = new ArrayList<Integer>();
 
-        listaErrores.add(new ValidacionUsuario(dataLoginCliente.getUsuarioCliente()).exec());
-        listaErrores.add(new ValidacionPassword(dataLoginCliente.getPasswordCliente()).exec());
+
+        ComandoValidarLoginCliente comandoValidarLoginCliente = new  ComandoValidarLoginCliente(dataLoginCliente.getLoginClienteEntity());
+
+        listaErrores = comandoValidarLoginCliente.getCommands();
 
         String mensaje = "";
 
         for(Integer error:listaErrores){
             for (EstadoError estado : EstadoError.values()){
-                if(error == estado.getId() & error != 0) mensaje = mensaje.concat(estado.getMsg());
+                if(error == estado.getId() & error != EstadoError.ERROR_NULL.getId()) mensaje = mensaje.concat(estado.getMsg());
             }
         }
         request.setAttribute("mensaje", mensaje);
@@ -67,7 +70,7 @@ public class ValidarClientSessionController extends HttpServlet {
 
              String nifLogin = clienteDAO.get_nif_login(dataLoginCliente.getLoginClienteEntity());
 
-             session.setAttribute("nifClient", nifLogin);
+             session.setAttribute("nifCliente", nifLogin);
 
              if (!nifLogin.equals("null")) {
 
@@ -78,13 +81,12 @@ public class ValidarClientSessionController extends HttpServlet {
                  if (opcion.equals("clientUpdateDaper")){
 
                     try {
-                         new ObjectTransferSession().convertir(session,clienteDAO.getCliente(nifLogin));
+                         new ObjectTransferSession().convertir(clienteDAO.getCliente(nifLogin), session);
                      } catch (InvocationTargetException e) {
                          e.printStackTrace();
                      } catch (IllegalAccessException e) {
                          e.printStackTrace();
                      }
-
                  }
 
                  rd = request.getRequestDispatcher("cliente/" + opcion + ".jsp");

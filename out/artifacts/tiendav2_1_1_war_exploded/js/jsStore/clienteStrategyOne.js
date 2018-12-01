@@ -9,7 +9,6 @@ STORE.namespace('STORE.list_input');
 
     eval("div_" + STORE.list_input[0].id).style.display = '';
 
-    alert("(STORE.list_input[0].id).value",(STORE.list_input[0].id).value);
     if((STORE.list_input[0].id).value == null) {
 
         for (var i = 1; i < STORE.list_input.length; i++) {

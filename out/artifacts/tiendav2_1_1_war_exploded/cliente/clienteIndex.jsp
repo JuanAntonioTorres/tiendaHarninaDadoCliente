@@ -22,10 +22,13 @@
 </header>
 <div class="contenido01">
     <div class="medio dadoCatalogo">
-        <div class="dado d1 informatica"></div>
+        <div class="dado d2 informatica"></div>
     </div>
     <div class="medio dadoCatalogo">
-        <div class="dado d3 harnina"></div>
+        <div class="dado d8 usuario"></div>
+    </div>
+    <div class="medio dadoCatalogo">
+        <div class="dado d4 harnina"></div>
     </div>
 </div>
 
@@ -41,6 +44,7 @@
     <div class="contenido01">
         <div><a href="cliente/clientSesion.jsp?opcion=clientUpdateLogin&operacion=Confirmar">Modificar Login </a></div>
         <div><a href="cliente/clientSesion.jsp?opcion=clientUpdateDaper&operacion=Confirmar">Modificar Datos Personales</a></div>
+        <div><a href="cliente/clientSesion.jsp?opcion=clientUpdateAvatar&operacion=Confirmar">Modificar Avatar</a></div>
         <div><a href="cliente/clientSesion.jsp?opcion=clientDelete&operacion=Confirmar">Eliminar </a></div>
     </div>
 
@@ -48,6 +52,9 @@
 
 </body>
 </html>
-
+<script language="javascript">
+    var nif = "<%=session.getAttribute("nifCliente") %>";
+    console.log("clienteIndex.jsp - SCRIPT --> " + nif);
+</script>
 <script src="../js/jscss/dado.js"></script>
 <script src="../js/jsStore/store.js"></script>

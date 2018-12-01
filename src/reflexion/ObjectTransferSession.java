@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 
 public class ObjectTransferSession {
 
-    public void convertir(HttpSession session,Object object) throws InvocationTargetException, IllegalAccessException {
+    public void convertir(Object object, HttpSession session) throws InvocationTargetException, IllegalAccessException {
         Field [] atributosObjetos = object.getClass().getDeclaredFields();
         Method [] metodosObjetos = object.getClass().getDeclaredMethods();
 
