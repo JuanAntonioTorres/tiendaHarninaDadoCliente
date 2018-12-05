@@ -7,185 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e583181-735d-4a1e-81a5-ab1056befb3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cliente/ComandoValidarAvatarCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/CargadorImagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/fotoClient/44832328S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarDaperCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarDaperCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarLoginCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/ComandoValidarLoginCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/DataLoginCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/DataLoginCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/DataPersonCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/cliente/DataPersonCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/DeleteClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/DeleteClientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientDaperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientDaperController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/ValidarClientInsertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/ValidarClientInsertController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/ValidarClientSessionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/ValidarClientSessionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/AccesoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/AccesoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/clienteDAO/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/clienteDAO/ClienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/clienteDAO/ClienteRoll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/clienteDAO/ClienteRoll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/cp/CPDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/cp/CPDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/cp/CPRoll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dao/cp/CPRoll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Curso2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/ImpartirClase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/ImpartirClase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Luciano.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/profeLuciano/Luciano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v1/mal/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v2/basic/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Camarero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Camarero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/VisitadorPersona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/dobleDespacho/v3/extensible/VisitadorPersona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/ClienteEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/ClienteEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/CodigoPostalEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/CodigoPostalEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/DaperClienteEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/DaperClienteEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/LoginClienteHarnina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/entity/LoginClienteHarnina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/error/ErrorManagerState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/error/ErrorManagerState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/error/EstadoError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/error/EstadoError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/AccesoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/AccesoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/FechaDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/FechaDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/GenericMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/GenericMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/TestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/TrueFalse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/TrueFalse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/ValidarPrueba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/ValidarPrueba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/fotodownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/fotodownload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/getCp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/prueba/getCp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/HasMapTransferObjet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/HasMapTransferObjet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/ObjectTransferSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/ObjectTransferSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/RequestTransferSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/RequestTransferSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/RsTransferArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/RsTransferArraylist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/SessionTransferObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/reflexion/SessionTransferObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/IValidacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/IValidacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/IValidacionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/IValidacionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionCodigoPostal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionCodigoPostal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionDNINIECIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionDNINIECIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionDNINIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionDNINIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionExtensionFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionExtensionFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionFecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionFecha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionImagenNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionImagenNombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLetrasConEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLetrasConEspacio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLetrasSinEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLetrasSinEspacio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionListOfValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionListOfValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLongitud.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionLongitud.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionMultiValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionMultiValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionNIE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionNIE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionNIFCIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionNIFCIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionRegularExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionRegularExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionSexo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionSexo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionTelefonoSpain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionTelefonoSpain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidacionUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidarDomicilio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/validate/ValidarDomicilio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clientSesion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clientSesion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clienteIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clienteIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jsStore/clienteStrategyOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jsStore/clienteStrategyOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jsStore/lista.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jsStore/lista.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientAvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/WEB-INF/classes/controller/UpdateClientAvatarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clientUpdateAvatar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/cliente/clientUpdateAvatar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/fotoClient/53573954P.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/fotoClient/53573954P.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jscss/dado.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/js/jscss/dado.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarDaperCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarDaperCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarLoginCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/ComandoValidarLoginCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/DataLoginCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/DataLoginCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/DataPersonCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/cliente/DataPersonCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/DeleteClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/DeleteClientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientDaperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientDaperController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/ValidarClientInsertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/ValidarClientInsertController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/ValidarClientSessionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/ValidarClientSessionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/AccesoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/AccesoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/clienteDAO/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/clienteDAO/ClienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/clienteDAO/ClienteRoll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/clienteDAO/ClienteRoll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/cp/CPDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/cp/CPDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/cp/CPRoll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dao/cp/CPRoll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Curso2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/ImpartirClase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/ImpartirClase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Luciano.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/profeLuciano/Luciano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v1/mal/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v2/basic/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Camarero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Camarero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Hombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Hombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Mujer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Mujer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Recepcionista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Recepcionista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/VisitadorPersona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/dobleDespacho/v3/extensible/VisitadorPersona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/ClienteEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/ClienteEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/CodigoPostalEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/CodigoPostalEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/DaperClienteEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/DaperClienteEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/LoginClienteHarnina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/entity/LoginClienteHarnina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/error/ErrorManagerState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/error/ErrorManagerState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/error/EstadoError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/error/EstadoError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/AccesoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/AccesoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/FechaDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/FechaDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/GenericMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/GenericMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/TestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/TrueFalse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/TrueFalse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/ValidarPrueba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/ValidarPrueba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/fotodownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/fotodownload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/getCp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/prueba/getCp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/HasMapTransferObjet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/HasMapTransferObjet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/ObjectTransferSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/ObjectTransferSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/RequestTransferSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/RequestTransferSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/RsTransferArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/RsTransferArraylist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/SessionTransferObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/reflexion/SessionTransferObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/IValidacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/IValidacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/IValidacionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/IValidacionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionCodigoPostal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionCodigoPostal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionDNINIECIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionDNINIECIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionDNINIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionDNINIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionExtensionFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionExtensionFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionFecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionFecha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionImagenNombre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionImagenNombre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLetrasConEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLetrasConEspacio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLetrasSinEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLetrasSinEspacio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionListOfValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionListOfValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLongitud.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionLongitud.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionMultiValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionMultiValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionNIE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionNIE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionNIFCIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionNIFCIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionRegularExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionRegularExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionSexo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionSexo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionTelefonoSpain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionTelefonoSpain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidacionUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidarDomicilio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/validate/ValidarDomicilio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/ComandoValidarDaperCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cliente/ComandoValidarDaperCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cliente/ComandoValidarLoginCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cliente/ComandoValidarLoginCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UpdateClientLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateClientLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ValidarClientInsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ValidarClientInsertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ValidarClientSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ValidarClientSessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/clienteDAO/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/clienteDAO/ClienteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/clienteDAO/ClienteRoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/clienteDAO/ClienteRoll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/cp/CPDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/cp/CPDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflexion/ObjectTransferSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflexion/ObjectTransferSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cliente/clientSesion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cliente/clientSesion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientAvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tiendav2.1.1/controller/UpdateClientAvatarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cliente/clientUpdateLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cliente/clientUpdateLogin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/cliente/clienteIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cliente/clienteIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jsStore/clienteStrategyOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jsStore/clienteStrategyOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jsStore/lista.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jsStore/lista.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/jscss/dado.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jscss/dado.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -383,46 +214,52 @@
     <session id="636451550">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="46" />
-          <entry key="js" value="12" />
-          <entry key="jsp" value="17" />
-          <entry key="png" value="2" />
+          <entry key="java" value="50" />
+          <entry key="js" value="13" />
+          <entry key="jsp" value="22" />
+          <entry key="png" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
-          <entry key="JAVA" value="46" />
-          <entry key="JSP" value="17" />
-          <entry key="JavaScript" value="12" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="50" />
+          <entry key="JSP" value="22" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="944" />
-          <entry key="js" value="258" />
-          <entry key="jsp" value="48" />
+          <entry key="java" value="946" />
+          <entry key="js" value="321" />
+          <entry key="jsp" value="67" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="944" />
-          <entry key="JSP" value="48" />
-          <entry key="JavaScript" value="258" />
+          <entry key="JAVA" value="946" />
+          <entry key="JSP" value="67" />
+          <entry key="JavaScript" value="321" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -431,57 +268,21 @@
     <favorites_list name="tiendav2.1.1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/jscss/dado.js">
+        <entry file="file://$PROJECT_DIR$/web/cliente/clienteIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dobleDespacho/profeLuciano/Curso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dobleDespacho/profeLuciano/Luciano.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dobleDespacho/profeLuciano/ImpartirClase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="209">
+              <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java">
+        <entry file="file://$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/cliente/clienteIndex.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="54" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="97">
+              <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -503,7 +304,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/ComandosDaperCliente.java" />
         <option value="$PROJECT_DIR$/src/dao/ReflexionRs.java" />
         <option value="$PROJECT_DIR$/src/dao/TransferHasMapObjet.java" />
         <option value="$PROJECT_DIR$/src/dao/RsTransferArraylist.java" />
@@ -550,10 +350,11 @@
         <option value="$PROJECT_DIR$/src/dao/clienteDAO/ClienteDAO.java" />
         <option value="$PROJECT_DIR$/src/dao/clienteDAO/ClienteRoll.java" />
         <option value="$PROJECT_DIR$/src/utils/CargadorImagen.java" />
-        <option value="$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp" />
         <option value="$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java" />
+        <option value="$PROJECT_DIR$/web/cliente/clientUpdateLogin.jsp" />
         <option value="$PROJECT_DIR$/web/cliente/clienteIndex.jsp" />
         <option value="$PROJECT_DIR$/web/js/jscss/dado.js" />
+        <option value="$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp" />
       </list>
     </option>
   </component>
@@ -576,7 +377,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -604,7 +405,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -615,36 +415,33 @@
             <path>
               <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cliente" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="cliente" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tiendav39999999" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tiendav39999999" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jscss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +452,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543696674643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544029596767" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -666,9 +463,10 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cliente" />
-      <recent name="controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jackdaniel\IdeaProjects\tiendav39999999\out\artifacts\tiendav2_1_1_war_exploded\img\fotoClient" />
+      <recent name="C:\2018b\git2018\tienda20189\tiendav3.1.1\src\dao" />
+      <recent name="C:\2018b\git2018\tienda20189\tiendav2.1.1\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\2018b\git2018\tienda20189\tiendav3.1.1\web\img\fotoClient" />
@@ -681,10 +479,9 @@
       <recent name="entity" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jackdaniel\IdeaProjects\tiendav39999999\out\artifacts\tiendav2_1_1_war_exploded\img\fotoClient" />
-      <recent name="C:\2018b\git2018\tienda20189\tiendav3.1.1\src\dao" />
-      <recent name="C:\2018b\git2018\tienda20189\tiendav2.1.1\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cliente" />
+      <recent name="controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1090,12 +887,24 @@
       <workItem from="1543562479171" duration="1936000" />
       <workItem from="1543592439918" duration="497000" />
       <workItem from="1543693063462" duration="1337000" />
-      <workItem from="1543696222862" duration="307000" />
+      <workItem from="1543696222862" duration="2243000" />
+      <workItem from="1543913502242" duration="3558000" />
+      <workItem from="1543998899226" duration="2311000" />
+      <workItem from="1544010891760" duration="598000" />
+      <workItem from="1544023569072" duration="4547000" />
     </task>
+    <task id="LOCAL-00001" summary="asd">
+      <created>1543696612156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543696612156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240921000" />
+    <option name="totallyTimeSpent" value="253871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,7 +921,7 @@
     <layout>
       <window_info id="JavaEE:App" order="0" side_tool="true" />
       <window_info id="Persistence" order="1" sideWeight="0.4520124" side_tool="true" weight="0.25877863" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.54798764" visible="true" weight="0.24357034" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.54798764" visible="true" weight="0.25869894" />
       <window_info id="Structure" order="3" sideWeight="0.22360249" side_tool="true" weight="0.33740458" />
       <window_info id="Designer" order="4" />
       <window_info id="Image Layers" order="5" />
@@ -1152,14 +961,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/validate/VerificacionCodigoPostal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/harni01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1291,13 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cliente/ComandoValidarAvatarCliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/jsStore/validate.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1335,13 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UpdateClientLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/clienteDAO/ClienteRoll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1362,16 +1154,6 @@
           <caret line="124" column="9" lean-forward="true" selection-start-line="43" selection-end-line="125" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CargadorImagen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/fotoClient/53573954P.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/cliente/clientDelete.jsp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1397,33 +1179,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/cliente/clientUpdateLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="9" selection-start-line="9" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/cliente/clientSesion.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jscss/dado.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/fotoClient/53311454F.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dobleDespacho/profeLuciano/Curso.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1439,24 +1196,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/cliente/clienteIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dobleDespacho/profeLuciano/ImpartirClase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="493">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UpdateClientLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cliente/ComandoValidarAvatarCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/tiendav2_1_1_war_exploded/img/fotoClient/53573954P.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/UpdateClientAvatarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="311">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CargadorImagen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="86" lean-forward="true" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cliente/clientUpdateLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cliente/clientSesion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jscss/dado.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cliente/clienteIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cliente/clientUpdateAvatar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
         </state>
       </provider>
     </entry>

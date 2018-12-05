@@ -19,7 +19,7 @@
     <link type="text/css" rel="stylesheet" href="../css/miscontenedores.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
-<body>
+<body onload="location. Reload(true)">
 <header class="cabecera"><a class="subtitulo" href="catalogo.html">DAM: ACCESO A DATOS</a>
     <h5 class="titulo">Tienda Harnina</h5>
 </header>

@@ -4,7 +4,7 @@ if(nif===undefined){
   imagenUsuario = '../img/fotocliente/fotoSin.jpg';
 }
 else{
-    imagenUsuario = 'img/fotoClient/'+ nif+ '.png';
+    imagenUsuario = 'img/fotoClient/'+ nif + '.png';
 }
 
 var dados = ['dado informatica','dado harnina','dado usuario'];

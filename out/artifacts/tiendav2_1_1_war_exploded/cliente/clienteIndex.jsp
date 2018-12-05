@@ -56,5 +56,5 @@
     var nif = "<%=session.getAttribute("nifCliente") %>";
     console.log("clienteIndex.jsp - SCRIPT --> " + nif);
 </script>
-<script src="../js/jscss/dado.js"></script>
+<script src="../js/jscss/dado.js?<%=Math.random()%>"></script>
 <script src="../js/jsStore/store.js"></script>

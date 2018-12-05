@@ -29,7 +29,7 @@
 </div>
 
 <div class="contenido01">
-    <img src= "../img/fotoClient/<%=session.getAttribute("nifCliente")%>.png" alt="" height="200px" width="300px">
+    <img src= "../img/fotoClient/<%=session.getAttribute("nifCliente")%>.png?<%=Math.random()%>" alt="" height="200px" width="300px">
     <form enctype="multipart/form-data" id="client_register" method="POST" action="/UpCliAvaCon">
         <div class="menu s3 caja03">
             <h4>New Image</h4>
